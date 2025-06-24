@@ -1,23 +1,27 @@
 {
-  "name": "mcp-agent-chat",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.1",
-    "axios": "^1.9.0",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2",
-    "zod": "^3.25.61"
-  },
-  "devDependencies": {},
-  "description": "",
-  "type": "module"
-}
+    "name": "mcp-agent-chat",
+    "version": "1.0.0",
+    "main": "enhanced-integration.js",
+    "scripts": {
+      "start": "node enhanced-integration.js",
+      "dev": "node enhanced-integration.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["mcp", "agent", "chat", "vector-search"],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.12.1",
+      "axios": "^1.9.0",
+      "dotenv": "^16.5.0",
+      "express": "^5.1.0",
+      "node-fetch": "^3.3.2",
+      "zod": "^3.25.61",
+      "uuid": "^10.0.0"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "type": "module",
+    "description": "MCP server for vector search and code repository tools"
+  }

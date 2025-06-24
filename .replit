@@ -1,0 +1,9 @@
+{
+  "run": "npm start",
+  "language": "nodejs",
+  "onBoot": "npm install",
+  "packager": {
+    "language": "nodejs",
+    "manager": "npm"
+  }
+}
